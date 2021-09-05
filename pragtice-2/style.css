@@ -1,0 +1,90 @@
+   .div1{
+      float: right;
+    }
+    h1{
+        margin: 0px;
+    }
+    .circle{
+         margin-top: 50px;
+         height: 100px;
+         width: 200px;
+         margin-left: 200px;
+         background-color: brown;
+         padding: 10px;
+         border-radius: 25px;
+         border: 2px solid black;
+         transition: 2s;               
+    }
+    .circle:hover{
+      background-color: cyan;
+      transform: scale(2);
+    }
+    .my-choice{
+      margin: 35px;
+     font-size: 45px;
+      display: flex;
+    }
+    .mmmm{
+      border: 1px solid black;
+      width: 55px;
+      border-radius: 50px;
+      background-color: blue;
+      color: white;
+      
+    }
+    .nnnn{
+      border: 1px solid black;
+      width: 55px;
+      border-radius: 50px;
+      background-color: blue;
+      color: white;
+      margin-right: 5px;
+    }
+    .oooo{
+      border: 1px solid black;
+      width: 55px;
+      border-radius: 50px;
+      background-color: blue;
+      color: white;
+      margin-left: 10px;
+    }
+    .pppp{
+      border: 1px solid black;
+      width: 55px;
+      border-radius: 50px;
+      background-color: blue;
+      color: white;
+    }
+    .dropdown{
+      float: right;
+    }
+    
+   .total{
+        height: 100px;
+        width: 400px;
+        /* background-color: crimson; */
+        padding: 25px;
+        display: flex;
+   }
+     ul{
+       list-style: none;
+       overflow: hidden;
+        }
+       li{
+        float: left;
+          }
+       li a { 
+         display: block;
+         text-align: center;
+         text-decoration: none;
+           }
+      li a:hover{
+                    background-color: violet;
+      }
+      li.dropdown{
+        display: block;
+      }
+      
+    .mmm{
+      margin-left: 5px;
+    }

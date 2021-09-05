@@ -1,0 +1,75 @@
+body{
+    background-color: aqua;
+    margin: 25px;
+}
+  .khojo{
+      width: 100px;
+  }
+    .dhap{
+        width: 150px;
+        background-color: blue;
+        color: white;
+        border-radius: 25px;
+        padding: 5px;  
+    }
+     .dhap:hover{
+         background-color: violet;
+         color: yellow;
+     }
+     .div-1{
+         
+         width: 150px;
+         background-color: brown;
+         color: cornflowerblue;
+
+     }
+     .dip-1{
+         color: rgb(220, 20, 193);
+     }
+     .dip-2{
+         color: darkgreen;
+     }
+     .another{
+         width: 400px;
+         color: rgb(231, 94, 231);
+         background-color: mediumblue;
+         height: 50px;
+         padding: 5px;
+         margin-top: 25px;
+     }
+     .dhor-ho{
+         margin-left: 360px;
+     }
+     .dropdown{
+         display: block;
+         position: relative;
+         color: fuchsia;
+         
+     }
+     .dropdown-container{
+        background-color:gold;
+       }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: deeppink;
+        }
+        .dropdown-content a{
+                      background-color: indigo;
+                      color: white;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+            background-color: green;   
+        }
+        
+        #div1{
+            height: 100px;
+            width: 200px;
+            background-color: red;
+            margin-top: 100px;
+            transition: 3s;
+        }
+        #div1:hover{
+                 transform:scale(1.2) rotate(45deg);
+        }

@@ -1,0 +1,25 @@
+
+.row{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.card-body{
+    text-align: center;
+}
+.card-body img{
+    display: block;
+}
+.item-desc{
+    background-color: aqua;
+}
+.image{
+    background-color: aqua;
+    max-width: 600px;
+   max-height: 300px;
+}
+.box{
+height: 500px;
+width: 500px;
+}
