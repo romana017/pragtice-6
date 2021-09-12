@@ -1,0 +1,43 @@
+.right-side{
+}
+.full-div{
+   display: flex;
+   text-align: right;
+}
+button{
+    text-align: right;
+    color: blue;
+    background-color: blue;
+}
+/*-------------
+*/
+.grid-container{
+       display: grid;
+       grid-template-areas:'header header header header header header'
+       'menu main main main right right right'
+       'menu main main main right right'
+       'menu footer footer footer footer footer';
+       grid: gap 10px;
+       padding: 10px;
+       background-color: red;
+
+}
+ .grid-container > div{
+            background-color: rgb(77, 124, 124);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+ }
+    .container{
+            display: flex;
+            grid-template-columns: auto auto auto auto;
+           grid-template-rows: 120px;
+           justify-content: center;
+           grid-row-gap:50px;
+     }
+     .item1{
+          grid-column: 1/span 3;
+          grid-row: 1/span 4;
+          border: 2px solid black;
+          justify-self: start;
+     }

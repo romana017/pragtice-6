@@ -1,0 +1,68 @@
+  .grid-container{
+      display: grid;
+     grid-template-columns: auto auto auto auto;
+     justify-content: center;
+     grid-row-gap: 50px;
+     grid-row-end: 50px;
+  }
+  .item1{
+      grid-column: 1/span 3;
+      grid-row: 1/span 4;
+      border: 2px solid blue;
+       justify-self: center;
+  }
+  /*------about soro
+  -------*/
+  .right-side{
+  }
+  .left-side{
+    float: right;
+    margin-right: 600px;
+  }
+  .another-side{
+       height: 300px;
+       width: 900px;
+       background-color: coral;
+       padding: 15px;
+      margin-top: 15px;
+    }
+    .round-side{
+      float: right;
+      top: 100px;
+    }
+    button{
+      background-color: aqua;
+    }
+    button:hover{
+      background-color: blue;
+      color: white;
+    }
+    .dropdown{
+              display: block;
+               position: relative;
+               color: brown;
+        }
+        .dropdown-container{
+          background-color: chartreuse;
+        }
+        .dropdown-content{
+                        display: none;
+                        position: absolute;
+                        background-color: darkorchid;
+        }
+        .dropdown-content a{
+               background-color: darksalmon;
+               color: deeppink;
+        }
+         .dropdown:hover .dropdown-content{
+          display: block;
+          background-color: deepskyblue;
+               }
+               .dropdown-content:hover{
+                    color: indigo;
+                    background-color: lawngreen;
+               }
+
+               h1{
+                 background-color: white;
+               }

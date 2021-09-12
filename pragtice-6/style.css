@@ -57,4 +57,47 @@ img{
    .item5{
     grid-column: 2/7;
    } 
-  
+   ul{
+      list-style: none;
+      overflow:scroll;
+    
+   }
+   li{
+       float: left;
+    
+   }
+   li a{
+       display: block;
+       text-align: center;
+
+   }
+   li a:hover{
+       background-color: chocolate;
+   }
+   li.dropdown{
+       display: block;
+   }
+   .flex-container{
+       background-color: aqua;  
+       display: flex; 
+       flex-wrap: wrap;
+       flex-direction:column;
+
+   }
+   .flex-container > div{
+       font-size: 25px;
+       margin: 10px;
+       padding: 20px;
+       width: 100px;
+       background-color: chocolate;
+       text-align: center;
+   }
+   .container{
+           height: 200px;
+           width: 200px;
+           border-right: 20px red solid;
+           border-top:20px green solid;
+           border-left: 20px orange solid;
+           border-bottom: 20px yellowgreen solid;
+           float: right;
+   }
