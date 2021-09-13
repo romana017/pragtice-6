@@ -1,5 +1,6 @@
  .heading-style{
-    font-size: 60px;  
+    font-size: 60px;
+    margin-top: 5px;  
 }
    body{
     font-family: 'Roboto', sans-serif;
@@ -9,7 +10,8 @@
 .name{
    
     color:rgb(255, 69, 0);
-    font-size: 50px;   
+    font-size: 50px; 
+    margin-top:15px;  
 }
 .dhak{
     color:yellow;
@@ -19,10 +21,14 @@ p{
     width: 400px;
 }
   .dhap{
-    width: 150px;
-    height: 40px;
-    background-image: linear-gradient(red,orange);
-    border-radius: 10px;
+   text-decoration: none;
+   background-image: linear-gradient(orange,red);
+   padding: 10px 40px; 
+   border-radius: 7px;
+   color: white;
+   font-weight: 700px;
+   cursor: pointer;
+     
 }
    .my-pic{
       background-image: url("images/my-bg2.png");
@@ -42,7 +48,7 @@ img{
   .my-bg{
     display: flex;
     
-    padding-left: 50px;
+    
     background-image: url("images/top-banner.png");
    
     background-repeat: no-repeat;
@@ -51,53 +57,61 @@ img{
 .mybg{
     height: 300px;
 }
+.sttaling{
+  font-size: 20px;
+  font-weight: 15px;
+
+}
  /*----
  oporer kaj ses*/
    .body-open{
-         height: 600px;
-         width:100%;
-         background-image: url(images/dream-bg.png); 
-            background-repeat: no-repeat;
+            height: 600px;
+            width:100%;
+            background-image: url(images/dream-bg.png)  ; 
             background-position: right;
-         
-        background-repeat: no-repeat;
-         position: absolute;
-          display: flex; 
-        
-     
-   }
+            background-repeat: no-repeat;
+            position: absolute;
+            display: flex;
+           }
  .body-head{
-        margin-left: 100px;
+        margin-left: 300px;
         margin-bottom: 100%;
         position: relative;
-        left: 10px;
-        right: 150px;
-        bottom: 50px;
-        text-align: center;  
+        top: 1px;
+        right: 300px;
+        bottom: 350px;
+        text-align: center;
+        height: 200px;
+        width:150px;
+        
      }
    .need{
        color: rgb(228, 63, 3);
+       font-size: 25px;
+       font-size: 20px;
+       font-weight: 15px;
+       font-size: bolder;
        }
        .second-time{
-               height: 600px;
-               width: 100%;
+               height: 900px;
+               width: 900px;
                float: right; 
-                 margin-left: 400px; 
+                 margin-left: 100px; 
                  margin-top: 50px;   
           }
           .click-able{
-                  width: 150px;
-                  padding: 5px;
-                  background-color: yellow;
-                  color:black ;
-                  border-radius: 25px;
+            text-decoration: none;
+            background-image: linear-gradient(orange,red);
+            padding: 10px 40px; 
+            border-radius: 7px;
+            color: white;
+            font-weight: 700px;
+            cursor: pointer;
+                
+                 
+                   
+                 
           }
-          .click-able:hover{
-            background-color: chocolate;
-            color: white; 
-          }
-
-          
           /*-------
           middle ses----*/
           .end-off{
@@ -110,12 +124,11 @@ img{
             justify-content: center;
             align-items: center;
             display: flex;
-            border-bottom: dotted;
-            color: blue;
+            
           }
           .left-side{
-            margin-left: 30px;
-            height: 400px;
+            margin-left: 15px;
+            height: 550px;
             width:40%;
             border: 1px solid black;
             padding: 50px;
@@ -124,7 +137,8 @@ img{
             background-repeat: no-repeat;
             margin-right: 70px;
             box-shadow: 1px 10px 10px 10px rgb(105, 135, 145);
-           
+            font-size: 25px;
+            border-left: 10px solid rgb(15, 33, 197) ;
           }
           .concider{
             display: flex;
@@ -135,17 +149,26 @@ img{
             padding: 50px;
             margin-top: 50px;
             width: 40%;
-            border-left: 10px solid rebeccapurple ;
+            border-left: 10px solid rgb(15, 33, 197) ;
              box-shadow: 1px 10px 10px 10px rgb(105, 135, 145);
+             height: 550px;
+             font-size: 25px;
           }
 
           .bd{
             background-image: url(images/card7.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+            margin-left: 80px;
           }
-
-
+          .common{
+            font-size:1px;
+            font-weight: 1px;
+          }
+          .end{
+            text-align: center;
+            font-size: bold;
+          }
 
 
 
